@@ -1,0 +1,1299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B107D4751A8B862A002B059B /* Madhu.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B107D4741A8B862A002B059B /* Madhu.JPG */; };
+		B112363A1A91D05E0095D24B /* Statements.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236391A91D05E0095D24B /* Statements.png */; };
+		B112363C1A91D0860095D24B /* Manage Card.png in Resources */ = {isa = PBXBuildFile; fileRef = B112363B1A91D0860095D24B /* Manage Card.png */; };
+		B112363E1A91D0980095D24B /* Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B112363D1A91D0980095D24B /* Support.png */; };
+		B11236401A91D0A80095D24B /* Add-on Card.png in Resources */ = {isa = PBXBuildFile; fileRef = B112363F1A91D0A80095D24B /* Add-on Card.png */; };
+		B112364D1A91F1970095D24B /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11236431A91F1970095D24B /* AddCardViewController.m */; };
+		B112364E1A91F1970095D24B /* ManageCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11236451A91F1970095D24B /* ManageCardViewController.m */; };
+		B11236501A91F1970095D24B /* TransactionCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B112364A1A91F1970095D24B /* TransactionCellView.m */; };
+		B11236511A91F1970095D24B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B112364C1A91F1970095D24B /* TransactionsViewController.m */; };
+		B11236541A91F3600095D24B /* GenericTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11236531A91F3600095D24B /* GenericTableViewController.m */; };
+		B11236561A91F7550095D24B /* TransactionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B11236551A91F7550095D24B /* TransactionCellView.xib */; };
+		B11236581A9210D10095D24B /* DetailsCustomerServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B11236571A9210D10095D24B /* DetailsCustomerServiceCell.xib */; };
+		B112365A1A92114E0095D24B /* facetime_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236591A92114E0095D24B /* facetime_icon.png */; };
+		B112365C1A9211630095D24B /* sms4.png in Resources */ = {isa = PBXBuildFile; fileRef = B112365B1A9211630095D24B /* sms4.png */; };
+		B112365E1A92116D0095D24B /* opened4.png in Resources */ = {isa = PBXBuildFile; fileRef = B112365D1A92116D0095D24B /* opened4.png */; };
+		B11236641A9220B30095D24B /* creditcard8.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236631A9220B30095D24B /* creditcard8.png */; };
+		B11236661A92211D0095D24B /* gift7.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236651A92211D0095D24B /* gift7.png */; };
+		B11236681A9222AE0095D24B /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B11236671A9222AE0095D24B /* profile.jpeg */; };
+		B12965441A93501D001A1B10 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965431A93501D001A1B10 /* placeholder.png */; };
+		B12965461A935266001A1B10 /* gray_wells.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965451A935266001A1B10 /* gray_wells.png */; };
+		B12965491A937978001A1B10 /* gray_all.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965471A937978001A1B10 /* gray_all.png */; };
+		B129654A1A937978001A1B10 /* red_all.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965481A937978001A1B10 /* red_all.png */; };
+		B129654E1A938287001A1B10 /* Redeem Points.png in Resources */ = {isa = PBXBuildFile; fileRef = B129654D1A938287001A1B10 /* Redeem Points.png */; };
+		B12965501A93858C001A1B10 /* Generate Gift Card.png in Resources */ = {isa = PBXBuildFile; fileRef = B129654F1A93858C001A1B10 /* Generate Gift Card.png */; };
+		B12965531A938CF0001A1B10 /* SpecialOffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12965521A938CF0001A1B10 /* SpecialOffersViewController.m */; };
+		B12965641A93921A001A1B10 /* Home Decor.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965581A93921A001A1B10 /* Home Decor.png */; };
+		B129CFB61AC518C80069586E /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = B129CFB51AC518C80069586E /* Customer.m */; };
+		B1337ED51A94B55200C25CA4 /* OffersCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1337ED31A94B55200C25CA4 /* OffersCVCell.m */; };
+		B1337ED61A94B55200C25CA4 /* OffersCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1337ED41A94B55200C25CA4 /* OffersCVCell.xib */; };
+		B1423FB21A8E24970076D7CC /* GenericCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1423FB11A8E24970076D7CC /* GenericCollectionViewController.m */; };
+		B1423FB41A8E28A60076D7CC /* CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1423FB31A8E28A60076D7CC /* CVCell.xib */; };
+		B14F5AB51AC3A992006A1B42 /* JCP_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AB41AC3A992006A1B42 /* JCP_logo.jpeg */; };
+		B14F5AD31AC3ADE1006A1B42 /* Boxing Day.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ACB1AC3ADE1006A1B42 /* Boxing Day.jpeg */; };
+		B14F5AD41AC3ADE1006A1B42 /* Memorial Day.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ACC1AC3ADE1006A1B42 /* Memorial Day.jpeg */; };
+		B14F5AD51AC3ADE1006A1B42 /* offer_banner0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ACD1AC3ADE1006A1B42 /* offer_banner0.jpg */; };
+		B14F5AD61AC3ADE1006A1B42 /* offer_banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ACE1AC3ADE1006A1B42 /* offer_banner1.jpg */; };
+		B14F5AD71AC3ADE1006A1B42 /* offer_banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ACF1AC3ADE1006A1B42 /* offer_banner2.jpg */; };
+		B14F5AD81AC3ADE1006A1B42 /* offer_banner3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AD01AC3ADE1006A1B42 /* offer_banner3.jpg */; };
+		B14F5AD91AC3ADE1006A1B42 /* Thanksgiving Day.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AD11AC3ADE1006A1B42 /* Thanksgiving Day.jpeg */; };
+		B14F5ADA1AC3ADE1006A1B42 /* Veterans Day.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AD21AC3ADE1006A1B42 /* Veterans Day.jpeg */; };
+		B14F5ADC1AC3B035006A1B42 /* Special Offers.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ADB1AC3B035006A1B42 /* Special Offers.png */; };
+		B14F5AE01AC3B169006A1B42 /* Bags.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5ADF1AC3B169006A1B42 /* Bags.png */; };
+		B14F5AE21AC3B1FD006A1B42 /* Cameras.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AE11AC3B1FD006A1B42 /* Cameras.png */; };
+		B14F5AE41AC3B25B006A1B42 /* Health Care.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AE31AC3B25B006A1B42 /* Health Care.png */; };
+		B14F5AE61AC3B2C5006A1B42 /* Kitchen Appliances.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AE51AC3B2C5006A1B42 /* Kitchen Appliances.png */; };
+		B14F5AE81AC3B311006A1B42 /* Laptops.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AE71AC3B311006A1B42 /* Laptops.png */; };
+		B14F5AEA1AC3B349006A1B42 /* Men Apparels.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AE91AC3B349006A1B42 /* Men Apparels.png */; };
+		B14F5AEC1AC3B3AA006A1B42 /* Mobile Accessories.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AEB1AC3B3AA006A1B42 /* Mobile Accessories.png */; };
+		B14F5AEE1AC3B417006A1B42 /* Mobiles.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AED1AC3B417006A1B42 /* Mobiles.png */; };
+		B14F5AF01AC3B45E006A1B42 /* Perfumes.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AEF1AC3B45E006A1B42 /* Perfumes.png */; };
+		B14F5AF21AC3B4A1006A1B42 /* Watches.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AF11AC3B4A1006A1B42 /* Watches.png */; };
+		B14F5AF41AC3B4D5006A1B42 /* Women Apparels.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AF31AC3B4D5006A1B42 /* Women Apparels.png */; };
+		B14F5AF61AC3B56B006A1B42 /* Special Offer.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AF51AC3B56B006A1B42 /* Special Offer.png */; };
+		B14F5AF81AC3B5B0006A1B42 /* Boxing Day.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AF71AC3B5B0006A1B42 /* Boxing Day.png */; };
+		B14F5AFA1AC3B5F6006A1B42 /* Veterans Day.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AF91AC3B5F6006A1B42 /* Veterans Day.png */; };
+		B14F5AFC1AC3C4E1006A1B42 /* Thanksgiving Day.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AFB1AC3C4E1006A1B42 /* Thanksgiving Day.png */; };
+		B14F5AFE1AC3C532006A1B42 /* Perfumes.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AFD1AC3C532006A1B42 /* Perfumes.png */; };
+		B14F5B001AC3C57D006A1B42 /* Memorial Day.png in Resources */ = {isa = PBXBuildFile; fileRef = B14F5AFF1AC3C57D006A1B42 /* Memorial Day.png */; };
+		B16007E81A8C77CA00A63A97 /* offer_banner0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16007E01A8C77CA00A63A97 /* offer_banner0.jpg */; };
+		B16007E91A8C77CA00A63A97 /* offer_banner3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16007E11A8C77CA00A63A97 /* offer_banner3.jpg */; };
+		B16007EA1A8C77CA00A63A97 /* offer_banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16007E21A8C77CA00A63A97 /* offer_banner2.jpg */; };
+		B16007EB1A8C77CA00A63A97 /* offer_banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16007E31A8C77CA00A63A97 /* offer_banner1.jpg */; };
+		B16007F51A8C79E500A63A97 /* wf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007ED1A8C79E500A63A97 /* wf.jpeg */; };
+		B16007F61A8C79E500A63A97 /* J.C.Penny_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007EE1A8C79E500A63A97 /* J.C.Penny_logo.jpeg */; };
+		B16007F71A8C79E500A63A97 /* Kohl's_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007EF1A8C79E500A63A97 /* Kohl's_logo.jpeg */; };
+		B16007F81A8C79E500A63A97 /* Costco_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007F01A8C79E500A63A97 /* Costco_logo.jpeg */; };
+		B16007F91A8C79E500A63A97 /* Macy's_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007F11A8C79E500A63A97 /* Macy's_logo.jpeg */; };
+		B16007FA1A8C79E500A63A97 /* Sears_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007F21A8C79E500A63A97 /* Sears_logo.jpeg */; };
+		B16007FB1A8C79E500A63A97 /* Target_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007F31A8C79E500A63A97 /* Target_logo.jpeg */; };
+		B16007FC1A8C79E500A63A97 /* Wal-Mart_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16007F41A8C79E500A63A97 /* Wal-Mart_logo.jpeg */; };
+		B16007FF1A8C7E5700A63A97 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = B16007FD1A8C7E5700A63A97 /* cart.png */; };
+		B16008001A8C7E5700A63A97 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B16007FE1A8C7E5700A63A97 /* cart@2x.png */; };
+		B16008031A8C88E200A63A97 /* OffersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16008021A8C88E200A63A97 /* OffersTableViewCell.m */; };
+		B16008051A8C89C800A63A97 /* OffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16008041A8C89C800A63A97 /* OffersTableViewCell.xib */; };
+		B160080B1A8C8F2000A63A97 /* gray_master.png in Resources */ = {isa = PBXBuildFile; fileRef = B16008061A8C8F2000A63A97 /* gray_master.png */; };
+		B160080C1A8C8F2000A63A97 /* gray_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = B16008071A8C8F2000A63A97 /* gray_visa.png */; };
+		B160080D1A8C8F2000A63A97 /* red_master.png in Resources */ = {isa = PBXBuildFile; fileRef = B16008081A8C8F2000A63A97 /* red_master.png */; };
+		B160080E1A8C8F2000A63A97 /* red_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = B16008091A8C8F2000A63A97 /* red_visa.png */; };
+		B160080F1A8C8F2000A63A97 /* red_wells.png in Resources */ = {isa = PBXBuildFile; fileRef = B160080A1A8C8F2000A63A97 /* red_wells.png */; };
+		B18A43701AB191590000ACF4 /* DatabaseQueryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4871A8B795D00D85AA1 /* DatabaseQueryHandler.m */; };
+		B18BE33E1A8B24EA00D85AA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE33D1A8B24EA00D85AA1 /* main.m */; };
+		B18BE3411A8B24EA00D85AA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3401A8B24EA00D85AA1 /* AppDelegate.m */; };
+		B18BE3441A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3421A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodeld */; };
+		B18BE34A1A8B24EA00D85AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3481A8B24EA00D85AA1 /* Main.storyboard */; };
+		B18BE34C1A8B24EA00D85AA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18BE34B1A8B24EA00D85AA1 /* Images.xcassets */; };
+		B18BE34F1A8B24EA00D85AA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18BE34D1A8B24EA00D85AA1 /* LaunchScreen.xib */; };
+		B18BE35B1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE35A1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m */; };
+		B18BE37E1A8B25A700D85AA1 /* app_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */; };
+		B18BE37F1A8B25A700D85AA1 /* app_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3781A8B25A700D85AA1 /* app_icon_120.png */; };
+		B18BE3801A8B25A700D85AA1 /* app_icon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3791A8B25A700D85AA1 /* app_icon_152.png */; };
+		B18BE3811A8B25A700D85AA1 /* app_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */; };
+		B18BE3821A8B25A700D85AA1 /* app_icon_22.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */; };
+		B18BE3831A8B25A700D85AA1 /* app_icon_44.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */; };
+		B18BE3841A8B25A700D85AA1 /* app_icon_76.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */; };
+		B18BE3861A8B34F700D85AA1 /* eCard_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3851A8B34F700D85AA1 /* eCard_banner.jpg */; };
+		B18BE39B1A8B360800D85AA1 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3931A8B360800D85AA1 /* README.TXT */; };
+		B18BE39C1A8B360800D85AA1 /* WHATSNEW.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3941A8B360800D85AA1 /* WHATSNEW.TXT */; };
+		B18BE39D1A8B360800D85AA1 /* libViGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18BE3951A8B360800D85AA1 /* libViGo.a */; };
+		B18BE39E1A8B360800D85AA1 /* VoiceVaultData.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3981A8B360800D85AA1 /* VoiceVaultData.m */; };
+		B18BE39F1A8B360800D85AA1 /* ParseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE39A1A8B360800D85AA1 /* ParseViewController.m */; };
+		B18BE3A31A8B3DA600D85AA1 /* fingerprint43.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3A01A8B3DA600D85AA1 /* fingerprint43.png */; };
+		B18BE3A41A8B3DA600D85AA1 /* microphone9.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3A11A8B3DA600D85AA1 /* microphone9.png */; };
+		B18BE3A51A8B3DA600D85AA1 /* password13.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3A21A8B3DA600D85AA1 /* password13.png */; };
+		B18BE3AF1A8B5D2E00D85AA1 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3A81A8B5D2E00D85AA1 /* AuthenticationViewController.m */; };
+		B18BE3B01A8B5D2E00D85AA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3AA1A8B5D2E00D85AA1 /* LoginViewController.m */; };
+		B18BE3B11A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3AC1A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.m */; };
+		B18BE3B21A8B5D2E00D85AA1 /* VoiceLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3AE1A8B5D2E00D85AA1 /* VoiceLoginViewController.m */; };
+		B18BE3B81A8B666F00D85AA1 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3B51A8B666F00D85AA1 /* JSONParser.m */; };
+		B18BE3B91A8B666F00D85AA1 /* ServerCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE3B71A8B666F00D85AA1 /* ServerCommunicator.m */; };
+		B18BE4261A8B750B00D85AA1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B18BE4251A8B750B00D85AA1 /* libsqlite3.0.dylib */; };
+		B18BE45E1A8B78FD00D85AA1 /* CardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE42C1A8B78FC00D85AA1 /* CardDetailsViewController.m */; };
+		B18BE45F1A8B78FD00D85AA1 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE42E1A8B78FC00D85AA1 /* CarouselViewController.m */; };
+		B18BE4601A8B78FD00D85AA1 /* CarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18BE42F1A8B78FC00D85AA1 /* CarouselViewController.xib */; };
+		B18BE4611A8B78FD00D85AA1 /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4311A8B78FC00D85AA1 /* CustomerViewController.m */; };
+		B18BE4631A8B78FD00D85AA1 /* DetailsCustomerServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4351A8B78FC00D85AA1 /* DetailsCustomerServiceCell.m */; };
+		B18BE4641A8B78FD00D85AA1 /* DetailsCustomerServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4371A8B78FC00D85AA1 /* DetailsCustomerServiceViewController.m */; };
+		B18BE4651A8B78FD00D85AA1 /* DisplayCardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4391A8B78FC00D85AA1 /* DisplayCardDetails.m */; };
+		B18BE4661A8B78FD00D85AA1 /* DisplayCardDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18BE43A1A8B78FC00D85AA1 /* DisplayCardDetails.xib */; };
+		B18BE4671A8B78FD00D85AA1 /* DTCustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE43C1A8B78FC00D85AA1 /* DTCustomColoredAccessory.m */; };
+		B18BE4691A8B78FD00D85AA1 /* PagingSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4401A8B78FC00D85AA1 /* PagingSupportViewController.m */; };
+		B18BE46B1A8B78FD00D85AA1 /* ProductDescpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4441A8B78FC00D85AA1 /* ProductDescpViewController.m */; };
+		B18BE46C1A8B78FD00D85AA1 /* SupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4461A8B78FC00D85AA1 /* SupportViewController.m */; };
+		B18BE46D1A8B78FD00D85AA1 /* DetailsOfferPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4491A8B78FC00D85AA1 /* DetailsOfferPriceViewController.m */; };
+		B18BE46F1A8B78FD00D85AA1 /* DisplayVendorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE44D1A8B78FC00D85AA1 /* DisplayVendorViewController.m */; };
+		B18BE4701A8B78FD00D85AA1 /* OffersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE44F1A8B78FC00D85AA1 /* OffersCollectionViewController.m */; };
+		B18BE4721A8B78FD00D85AA1 /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4531A8B78FC00D85AA1 /* OffersViewController.m */; };
+		B18BE4731A8B78FD00D85AA1 /* VendorOffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4551A8B78FC00D85AA1 /* VendorOffersViewController.m */; };
+		B18BE4741A8B78FD00D85AA1 /* VendorOfferTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4571A8B78FC00D85AA1 /* VendorOfferTableCell.m */; };
+		B18BE4821A8B792300D85AA1 /* ContainerPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE47D1A8B792300D85AA1 /* ContainerPageViewController.m */; };
+		B18BE4831A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE47F1A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m */; };
+		B18BE48C1A8B795D00D85AA1 /* CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4851A8B795D00D85AA1 /* CVCell.m */; };
+		B18BE48E1A8B795D00D85AA1 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4891A8B795D00D85AA1 /* LoadingView.m */; };
+		B18BE48F1A8B795D00D85AA1 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE48B1A8B795D00D85AA1 /* Utility.m */; };
+		B18BE4971A8B797600D85AA1 /* FXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4921A8B797600D85AA1 /* FXImageView.m */; };
+		B18BE4981A8B797600D85AA1 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4941A8B797600D85AA1 /* iCarousel.m */; };
+		B18BE4991A8B797600D85AA1 /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE4961A8B797600D85AA1 /* UIImage+FX.m */; };
+		B1BCB5C61A95F16200FD5ACC /* PayBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BCB5C41A95F16200FD5ACC /* PayBillViewController.m */; };
+		B1BCB5C71A95F16200FD5ACC /* PayBillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BCB5C51A95F16200FD5ACC /* PayBillViewController.xib */; };
+		B1D22A911A95BA4800D347DC /* OffersDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D22A901A95BA4800D347DC /* OffersDescriptionViewController.m */; };
+		B1D22A951A95BE9000D347DC /* DisplayCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D22A931A95BE9000D347DC /* DisplayCartViewController.m */; };
+		B1D22A961A95BE9000D347DC /* DisplayCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D22A941A95BE9000D347DC /* DisplayCartViewController.xib */; };
+		B1D22A9A1A95BEEF00D347DC /* DisplayCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D22A981A95BEEF00D347DC /* DisplayCartTableViewCell.m */; };
+		B1D22A9B1A95BEEF00D347DC /* DisplayCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D22A991A95BEEF00D347DC /* DisplayCartTableViewCell.xib */; };
+		B1FC15CA1AB1C93000A99F0A /* eWallet.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B1FC15C91AB1C93000A99F0A /* eWallet.sqlite */; };
+		B1FC16031AB2BCD400A99F0A /* BankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC16021AB2BCD400A99F0A /* BankCard.m */; };
+		B1FC16061AB2BE7800A99F0A /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC16051AB2BE7800A99F0A /* CreditCard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18BE3551A8B24EB00D85AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18BE3301A8B24EA00D85AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18BE3371A8B24EA00D85AA1;
+			remoteInfo = WellsFargoeCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B107D4741A8B862A002B059B /* Madhu.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madhu.JPG; sourceTree = "<group>"; };
+		B11236391A91D05E0095D24B /* Statements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Statements.png; sourceTree = "<group>"; };
+		B112363B1A91D0860095D24B /* Manage Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manage Card.png"; sourceTree = "<group>"; };
+		B112363D1A91D0980095D24B /* Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Support.png; sourceTree = "<group>"; };
+		B112363F1A91D0A80095D24B /* Add-on Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-on Card.png"; sourceTree = "<group>"; };
+		B11236421A91F1970095D24B /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		B11236431A91F1970095D24B /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		B11236441A91F1970095D24B /* ManageCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageCardViewController.h; sourceTree = "<group>"; };
+		B11236451A91F1970095D24B /* ManageCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageCardViewController.m; sourceTree = "<group>"; };
+		B11236491A91F1970095D24B /* TransactionCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCellView.h; sourceTree = "<group>"; };
+		B112364A1A91F1970095D24B /* TransactionCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCellView.m; sourceTree = "<group>"; };
+		B112364B1A91F1970095D24B /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		B112364C1A91F1970095D24B /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
+		B11236521A91F3600095D24B /* GenericTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericTableViewController.h; sourceTree = "<group>"; };
+		B11236531A91F3600095D24B /* GenericTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericTableViewController.m; sourceTree = "<group>"; };
+		B11236551A91F7550095D24B /* TransactionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCellView.xib; sourceTree = "<group>"; };
+		B11236571A9210D10095D24B /* DetailsCustomerServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsCustomerServiceCell.xib; sourceTree = "<group>"; };
+		B11236591A92114E0095D24B /* facetime_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facetime_icon.png; sourceTree = "<group>"; };
+		B112365B1A9211630095D24B /* sms4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms4.png; sourceTree = "<group>"; };
+		B112365D1A92116D0095D24B /* opened4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opened4.png; sourceTree = "<group>"; };
+		B11236631A9220B30095D24B /* creditcard8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard8.png; sourceTree = "<group>"; };
+		B11236651A92211D0095D24B /* gift7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift7.png; sourceTree = "<group>"; };
+		B11236671A9222AE0095D24B /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
+		B12965431A93501D001A1B10 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		B12965451A935266001A1B10 /* gray_wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_wells.png; sourceTree = "<group>"; };
+		B12965471A937978001A1B10 /* gray_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_all.png; sourceTree = "<group>"; };
+		B12965481A937978001A1B10 /* red_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_all.png; sourceTree = "<group>"; };
+		B129654D1A938287001A1B10 /* Redeem Points.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Redeem Points.png"; path = "../Redeem Points.png"; sourceTree = "<group>"; };
+		B129654F1A93858C001A1B10 /* Generate Gift Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Generate Gift Card.png"; sourceTree = "<group>"; };
+		B12965511A938CF0001A1B10 /* SpecialOffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialOffersViewController.h; sourceTree = "<group>"; };
+		B12965521A938CF0001A1B10 /* SpecialOffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialOffersViewController.m; sourceTree = "<group>"; };
+		B12965581A93921A001A1B10 /* Home Decor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Decor.png"; sourceTree = "<group>"; };
+		B129CFB41AC518C80069586E /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		B129CFB51AC518C80069586E /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		B1337ED21A94B55200C25CA4 /* OffersCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersCVCell.h; sourceTree = "<group>"; };
+		B1337ED31A94B55200C25CA4 /* OffersCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersCVCell.m; sourceTree = "<group>"; };
+		B1337ED41A94B55200C25CA4 /* OffersCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersCVCell.xib; sourceTree = "<group>"; };
+		B1423FB01A8E24970076D7CC /* GenericCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericCollectionViewController.h; sourceTree = "<group>"; };
+		B1423FB11A8E24970076D7CC /* GenericCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericCollectionViewController.m; sourceTree = "<group>"; };
+		B1423FB31A8E28A60076D7CC /* CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVCell.xib; sourceTree = "<group>"; };
+		B14F5AB41AC3A992006A1B42 /* JCP_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JCP_logo.jpeg; sourceTree = "<group>"; };
+		B14F5ACB1AC3ADE1006A1B42 /* Boxing Day.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boxing Day.jpeg"; sourceTree = "<group>"; };
+		B14F5ACC1AC3ADE1006A1B42 /* Memorial Day.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Memorial Day.jpeg"; sourceTree = "<group>"; };
+		B14F5ACD1AC3ADE1006A1B42 /* offer_banner0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner0.jpg; sourceTree = "<group>"; };
+		B14F5ACE1AC3ADE1006A1B42 /* offer_banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner1.jpg; sourceTree = "<group>"; };
+		B14F5ACF1AC3ADE1006A1B42 /* offer_banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner2.jpg; sourceTree = "<group>"; };
+		B14F5AD01AC3ADE1006A1B42 /* offer_banner3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner3.jpg; sourceTree = "<group>"; };
+		B14F5AD11AC3ADE1006A1B42 /* Thanksgiving Day.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thanksgiving Day.jpeg"; sourceTree = "<group>"; };
+		B14F5AD21AC3ADE1006A1B42 /* Veterans Day.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Veterans Day.jpeg"; sourceTree = "<group>"; };
+		B14F5ADB1AC3B035006A1B42 /* Special Offers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Special Offers.png"; sourceTree = "<group>"; };
+		B14F5ADF1AC3B169006A1B42 /* Bags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bags.png; sourceTree = "<group>"; };
+		B14F5AE11AC3B1FD006A1B42 /* Cameras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cameras.png; sourceTree = "<group>"; };
+		B14F5AE31AC3B25B006A1B42 /* Health Care.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Health Care.png"; sourceTree = "<group>"; };
+		B14F5AE51AC3B2C5006A1B42 /* Kitchen Appliances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kitchen Appliances.png"; sourceTree = "<group>"; };
+		B14F5AE71AC3B311006A1B42 /* Laptops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Laptops.png; sourceTree = "<group>"; };
+		B14F5AE91AC3B349006A1B42 /* Men Apparels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Men Apparels.png"; sourceTree = "<group>"; };
+		B14F5AEB1AC3B3AA006A1B42 /* Mobile Accessories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mobile Accessories.png"; sourceTree = "<group>"; };
+		B14F5AED1AC3B417006A1B42 /* Mobiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mobiles.png; sourceTree = "<group>"; };
+		B14F5AEF1AC3B45E006A1B42 /* Perfumes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Perfumes.png; sourceTree = "<group>"; };
+		B14F5AF11AC3B4A1006A1B42 /* Watches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watches.png; sourceTree = "<group>"; };
+		B14F5AF31AC3B4D5006A1B42 /* Women Apparels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Women Apparels.png"; sourceTree = "<group>"; };
+		B14F5AF51AC3B56B006A1B42 /* Special Offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Special Offer.png"; sourceTree = "<group>"; };
+		B14F5AF71AC3B5B0006A1B42 /* Boxing Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boxing Day.png"; sourceTree = "<group>"; };
+		B14F5AF91AC3B5F6006A1B42 /* Veterans Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Veterans Day.png"; sourceTree = "<group>"; };
+		B14F5AFB1AC3C4E1006A1B42 /* Thanksgiving Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thanksgiving Day.png"; sourceTree = "<group>"; };
+		B14F5AFD1AC3C532006A1B42 /* Perfumes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Perfumes.png; sourceTree = "<group>"; };
+		B14F5AFF1AC3C57D006A1B42 /* Memorial Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Memorial Day.png"; sourceTree = "<group>"; };
+		B16007E01A8C77CA00A63A97 /* offer_banner0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner0.jpg; sourceTree = "<group>"; };
+		B16007E11A8C77CA00A63A97 /* offer_banner3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner3.jpg; sourceTree = "<group>"; };
+		B16007E21A8C77CA00A63A97 /* offer_banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner2.jpg; sourceTree = "<group>"; };
+		B16007E31A8C77CA00A63A97 /* offer_banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offer_banner1.jpg; sourceTree = "<group>"; };
+		B16007ED1A8C79E500A63A97 /* wf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wf.jpeg; sourceTree = "<group>"; };
+		B16007EE1A8C79E500A63A97 /* J.C.Penny_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = J.C.Penny_logo.jpeg; sourceTree = "<group>"; };
+		B16007EF1A8C79E500A63A97 /* Kohl's_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kohl's_logo.jpeg"; sourceTree = "<group>"; };
+		B16007F01A8C79E500A63A97 /* Costco_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Costco_logo.jpeg; sourceTree = "<group>"; };
+		B16007F11A8C79E500A63A97 /* Macy's_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Macy's_logo.jpeg"; sourceTree = "<group>"; };
+		B16007F21A8C79E500A63A97 /* Sears_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sears_logo.jpeg; sourceTree = "<group>"; };
+		B16007F31A8C79E500A63A97 /* Target_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Target_logo.jpeg; sourceTree = "<group>"; };
+		B16007F41A8C79E500A63A97 /* Wal-Mart_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wal-Mart_logo.jpeg"; sourceTree = "<group>"; };
+		B16007FD1A8C7E5700A63A97 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		B16007FE1A8C7E5700A63A97 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		B16008011A8C88E200A63A97 /* OffersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersTableViewCell.h; sourceTree = "<group>"; };
+		B16008021A8C88E200A63A97 /* OffersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersTableViewCell.m; sourceTree = "<group>"; };
+		B16008041A8C89C800A63A97 /* OffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersTableViewCell.xib; sourceTree = "<group>"; };
+		B16008061A8C8F2000A63A97 /* gray_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_master.png; sourceTree = "<group>"; };
+		B16008071A8C8F2000A63A97 /* gray_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_visa.png; sourceTree = "<group>"; };
+		B16008081A8C8F2000A63A97 /* red_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_master.png; sourceTree = "<group>"; };
+		B16008091A8C8F2000A63A97 /* red_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_visa.png; sourceTree = "<group>"; };
+		B160080A1A8C8F2000A63A97 /* red_wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_wells.png; sourceTree = "<group>"; };
+		B18BE3381A8B24EA00D85AA1 /* WellsFargoeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsFargoeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18BE33C1A8B24EA00D85AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18BE33D1A8B24EA00D85AA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B18BE33F1A8B24EA00D85AA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B18BE3401A8B24EA00D85AA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18BE3431A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsFargoeCards.xcdatamodel; sourceTree = "<group>"; };
+		B18BE3491A8B24EA00D85AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18BE34B1A8B24EA00D85AA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B18BE34E1A8B24EA00D85AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B18BE3541A8B24EB00D85AA1 /* WellsFargoeCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsFargoeCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18BE3591A8B24EB00D85AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18BE35A1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellsFargoeCardsTests.m; sourceTree = "<group>"; };
+		B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_1024.png; sourceTree = "<group>"; };
+		B18BE3781A8B25A700D85AA1 /* app_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_120.png; sourceTree = "<group>"; };
+		B18BE3791A8B25A700D85AA1 /* app_icon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_152.png; sourceTree = "<group>"; };
+		B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_180.png; sourceTree = "<group>"; };
+		B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_22.png; sourceTree = "<group>"; };
+		B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_44.png; sourceTree = "<group>"; };
+		B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_76.png; sourceTree = "<group>"; };
+		B18BE3851A8B34F700D85AA1 /* eCard_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eCard_banner.jpg; sourceTree = "<group>"; };
+		B18BE3931A8B360800D85AA1 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		B18BE3941A8B360800D85AA1 /* WHATSNEW.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WHATSNEW.TXT; sourceTree = "<group>"; };
+		B18BE3951A8B360800D85AA1 /* libViGo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libViGo.a; sourceTree = "<group>"; };
+		B18BE3961A8B360800D85AA1 /* ViGo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViGo.h; sourceTree = "<group>"; };
+		B18BE3971A8B360800D85AA1 /* VoiceVaultData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceVaultData.h; sourceTree = "<group>"; };
+		B18BE3981A8B360800D85AA1 /* VoiceVaultData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceVaultData.m; sourceTree = "<group>"; };
+		B18BE3991A8B360800D85AA1 /* ParseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseViewController.h; sourceTree = "<group>"; };
+		B18BE39A1A8B360800D85AA1 /* ParseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseViewController.m; sourceTree = "<group>"; };
+		B18BE3A01A8B3DA600D85AA1 /* fingerprint43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerprint43.png; sourceTree = "<group>"; };
+		B18BE3A11A8B3DA600D85AA1 /* microphone9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone9.png; sourceTree = "<group>"; };
+		B18BE3A21A8B3DA600D85AA1 /* password13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password13.png; sourceTree = "<group>"; };
+		B18BE3A71A8B5D2E00D85AA1 /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		B18BE3A81A8B5D2E00D85AA1 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		B18BE3A91A8B5D2E00D85AA1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B18BE3AA1A8B5D2E00D85AA1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B18BE3AB1A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceAuthenticationViewController.h; sourceTree = "<group>"; };
+		B18BE3AC1A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceAuthenticationViewController.m; sourceTree = "<group>"; };
+		B18BE3AD1A8B5D2E00D85AA1 /* VoiceLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceLoginViewController.h; sourceTree = "<group>"; };
+		B18BE3AE1A8B5D2E00D85AA1 /* VoiceLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceLoginViewController.m; sourceTree = "<group>"; };
+		B18BE3B41A8B666F00D85AA1 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		B18BE3B51A8B666F00D85AA1 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		B18BE3B61A8B666F00D85AA1 /* ServerCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCommunicator.h; sourceTree = "<group>"; };
+		B18BE3B71A8B666F00D85AA1 /* ServerCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCommunicator.m; sourceTree = "<group>"; };
+		B18BE3BA1A8B669800D85AA1 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		B18BE41B1A8B6B3400D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeCollectionHeaderViewCollectionReusableView.h; path = ../ViewControllers/RecipeCollectionHeaderViewCollectionReusableView.h; sourceTree = "<group>"; };
+		B18BE41C1A8B6B3400D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeCollectionHeaderViewCollectionReusableView.m; path = ../ViewControllers/RecipeCollectionHeaderViewCollectionReusableView.m; sourceTree = "<group>"; };
+		B18BE4251A8B750B00D85AA1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B18BE42B1A8B78FC00D85AA1 /* CardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsViewController.h; sourceTree = "<group>"; };
+		B18BE42C1A8B78FC00D85AA1 /* CardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsViewController.m; sourceTree = "<group>"; };
+		B18BE42D1A8B78FC00D85AA1 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		B18BE42E1A8B78FC00D85AA1 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		B18BE42F1A8B78FC00D85AA1 /* CarouselViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselViewController.xib; sourceTree = "<group>"; };
+		B18BE4301A8B78FC00D85AA1 /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		B18BE4311A8B78FC00D85AA1 /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		B18BE4341A8B78FC00D85AA1 /* DetailsCustomerServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCustomerServiceCell.h; sourceTree = "<group>"; };
+		B18BE4351A8B78FC00D85AA1 /* DetailsCustomerServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCustomerServiceCell.m; sourceTree = "<group>"; };
+		B18BE4361A8B78FC00D85AA1 /* DetailsCustomerServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCustomerServiceViewController.h; sourceTree = "<group>"; };
+		B18BE4371A8B78FC00D85AA1 /* DetailsCustomerServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCustomerServiceViewController.m; sourceTree = "<group>"; };
+		B18BE4381A8B78FC00D85AA1 /* DisplayCardDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCardDetails.h; sourceTree = "<group>"; };
+		B18BE4391A8B78FC00D85AA1 /* DisplayCardDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCardDetails.m; sourceTree = "<group>"; };
+		B18BE43A1A8B78FC00D85AA1 /* DisplayCardDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayCardDetails.xib; sourceTree = "<group>"; };
+		B18BE43B1A8B78FC00D85AA1 /* DTCustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCustomColoredAccessory.h; sourceTree = "<group>"; };
+		B18BE43C1A8B78FC00D85AA1 /* DTCustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCustomColoredAccessory.m; sourceTree = "<group>"; };
+		B18BE43F1A8B78FC00D85AA1 /* PagingSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagingSupportViewController.h; path = ../Cards/PagingSupportViewController.h; sourceTree = "<group>"; };
+		B18BE4401A8B78FC00D85AA1 /* PagingSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagingSupportViewController.m; path = ../Cards/PagingSupportViewController.m; sourceTree = "<group>"; };
+		B18BE4431A8B78FC00D85AA1 /* ProductDescpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDescpViewController.h; sourceTree = "<group>"; };
+		B18BE4441A8B78FC00D85AA1 /* ProductDescpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDescpViewController.m; sourceTree = "<group>"; };
+		B18BE4451A8B78FC00D85AA1 /* SupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportViewController.h; path = ../SupportViewController.h; sourceTree = "<group>"; };
+		B18BE4461A8B78FC00D85AA1 /* SupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SupportViewController.m; path = ../SupportViewController.m; sourceTree = "<group>"; };
+		B18BE4481A8B78FC00D85AA1 /* DetailsOfferPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsOfferPriceViewController.h; sourceTree = "<group>"; };
+		B18BE4491A8B78FC00D85AA1 /* DetailsOfferPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsOfferPriceViewController.m; sourceTree = "<group>"; };
+		B18BE44C1A8B78FC00D85AA1 /* DisplayVendorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayVendorViewController.h; sourceTree = "<group>"; };
+		B18BE44D1A8B78FC00D85AA1 /* DisplayVendorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayVendorViewController.m; sourceTree = "<group>"; };
+		B18BE44E1A8B78FC00D85AA1 /* OffersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersCollectionViewController.h; sourceTree = "<group>"; };
+		B18BE44F1A8B78FC00D85AA1 /* OffersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersCollectionViewController.m; sourceTree = "<group>"; };
+		B18BE4521A8B78FC00D85AA1 /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
+		B18BE4531A8B78FC00D85AA1 /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		B18BE4541A8B78FC00D85AA1 /* VendorOffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorOffersViewController.h; sourceTree = "<group>"; };
+		B18BE4551A8B78FC00D85AA1 /* VendorOffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendorOffersViewController.m; sourceTree = "<group>"; };
+		B18BE4561A8B78FC00D85AA1 /* VendorOfferTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorOfferTableCell.h; sourceTree = "<group>"; };
+		B18BE4571A8B78FC00D85AA1 /* VendorOfferTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendorOfferTableCell.m; sourceTree = "<group>"; };
+		B18BE47C1A8B792300D85AA1 /* ContainerPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerPageViewController.h; sourceTree = "<group>"; };
+		B18BE47D1A8B792300D85AA1 /* ContainerPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerPageViewController.m; sourceTree = "<group>"; };
+		B18BE47E1A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionHeaderViewCollectionReusableView.h; sourceTree = "<group>"; };
+		B18BE47F1A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionHeaderViewCollectionReusableView.m; sourceTree = "<group>"; };
+		B18BE4841A8B795D00D85AA1 /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCell.h; sourceTree = "<group>"; };
+		B18BE4851A8B795D00D85AA1 /* CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCell.m; sourceTree = "<group>"; };
+		B18BE4861A8B795D00D85AA1 /* DatabaseQueryHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseQueryHandler.h; sourceTree = "<group>"; };
+		B18BE4871A8B795D00D85AA1 /* DatabaseQueryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseQueryHandler.m; sourceTree = "<group>"; };
+		B18BE4881A8B795D00D85AA1 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		B18BE4891A8B795D00D85AA1 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		B18BE48A1A8B795D00D85AA1 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		B18BE48B1A8B795D00D85AA1 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		B18BE4911A8B797600D85AA1 /* FXImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXImageView.h; sourceTree = "<group>"; };
+		B18BE4921A8B797600D85AA1 /* FXImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXImageView.m; sourceTree = "<group>"; };
+		B18BE4931A8B797600D85AA1 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		B18BE4941A8B797600D85AA1 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		B18BE4951A8B797600D85AA1 /* UIImage+FX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FX.h"; sourceTree = "<group>"; };
+		B18BE4961A8B797600D85AA1 /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
+		B1BCB5C31A95F16200FD5ACC /* PayBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayBillViewController.h; sourceTree = "<group>"; };
+		B1BCB5C41A95F16200FD5ACC /* PayBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayBillViewController.m; sourceTree = "<group>"; };
+		B1BCB5C51A95F16200FD5ACC /* PayBillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayBillViewController.xib; sourceTree = "<group>"; };
+		B1D22A8F1A95BA4800D347DC /* OffersDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersDescriptionViewController.h; sourceTree = "<group>"; };
+		B1D22A901A95BA4800D347DC /* OffersDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersDescriptionViewController.m; sourceTree = "<group>"; };
+		B1D22A921A95BE9000D347DC /* DisplayCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCartViewController.h; sourceTree = "<group>"; };
+		B1D22A931A95BE9000D347DC /* DisplayCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCartViewController.m; sourceTree = "<group>"; };
+		B1D22A941A95BE9000D347DC /* DisplayCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayCartViewController.xib; sourceTree = "<group>"; };
+		B1D22A971A95BEEF00D347DC /* DisplayCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCartTableViewCell.h; sourceTree = "<group>"; };
+		B1D22A981A95BEEF00D347DC /* DisplayCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCartTableViewCell.m; sourceTree = "<group>"; };
+		B1D22A991A95BEEF00D347DC /* DisplayCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayCartTableViewCell.xib; sourceTree = "<group>"; };
+		B1FC15C91AB1C93000A99F0A /* eWallet.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = eWallet.sqlite; sourceTree = "<group>"; };
+		B1FC16011AB2BCD400A99F0A /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		B1FC16021AB2BCD400A99F0A /* BankCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCard.m; sourceTree = "<group>"; };
+		B1FC16041AB2BE7800A99F0A /* CreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCard.h; sourceTree = "<group>"; };
+		B1FC16051AB2BE7800A99F0A /* CreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18BE3351A8B24EA00D85AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18BE4261A8B750B00D85AA1 /* libsqlite3.0.dylib in Frameworks */,
+				B18BE39D1A8B360800D85AA1 /* libViGo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18BE3511A8B24EB00D85AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11236381A91D0540095D24B /* Service Offerings */ = {
+			isa = PBXGroup;
+			children = (
+				B129654D1A938287001A1B10 /* Redeem Points.png */,
+				B129654F1A93858C001A1B10 /* Generate Gift Card.png */,
+				B112363F1A91D0A80095D24B /* Add-on Card.png */,
+				B112363D1A91D0980095D24B /* Support.png */,
+				B112363B1A91D0860095D24B /* Manage Card.png */,
+				B11236391A91D05E0095D24B /* Statements.png */,
+			);
+			path = "Service Offerings";
+			sourceTree = "<group>";
+		};
+		B11236411A91F12C0095D24B /* ServicesOffering */ = {
+			isa = PBXGroup;
+			children = (
+				B112365F1A9215A90095D24B /* support */,
+				B11236421A91F1970095D24B /* AddCardViewController.h */,
+				B11236431A91F1970095D24B /* AddCardViewController.m */,
+				B11236441A91F1970095D24B /* ManageCardViewController.h */,
+				B11236451A91F1970095D24B /* ManageCardViewController.m */,
+				B11236481A91F1970095D24B /* Transfer */,
+			);
+			path = ServicesOffering;
+			sourceTree = "<group>";
+		};
+		B11236481A91F1970095D24B /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				B11236491A91F1970095D24B /* TransactionCellView.h */,
+				B112364A1A91F1970095D24B /* TransactionCellView.m */,
+				B11236551A91F7550095D24B /* TransactionCellView.xib */,
+				B112364B1A91F1970095D24B /* TransactionsViewController.h */,
+				B112364C1A91F1970095D24B /* TransactionsViewController.m */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		B112365F1A9215A90095D24B /* support */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE4451A8B78FC00D85AA1 /* SupportViewController.h */,
+				B18BE4461A8B78FC00D85AA1 /* SupportViewController.m */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		B12965421A932BC7001A1B10 /* Voice Vault */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3931A8B360800D85AA1 /* README.TXT */,
+				B18BE3941A8B360800D85AA1 /* WHATSNEW.TXT */,
+				B18BE3951A8B360800D85AA1 /* libViGo.a */,
+				B18BE3961A8B360800D85AA1 /* ViGo.h */,
+				B18BE3971A8B360800D85AA1 /* VoiceVaultData.h */,
+				B18BE3981A8B360800D85AA1 /* VoiceVaultData.m */,
+				B18BE3991A8B360800D85AA1 /* ParseViewController.h */,
+				B18BE39A1A8B360800D85AA1 /* ParseViewController.m */,
+			);
+			name = "Voice Vault";
+			sourceTree = "<group>";
+		};
+		B12965541A9391EF001A1B10 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				B14F5ADF1AC3B169006A1B42 /* Bags.png */,
+				B14F5AE11AC3B1FD006A1B42 /* Cameras.png */,
+				B12965581A93921A001A1B10 /* Home Decor.png */,
+				B14F5AE31AC3B25B006A1B42 /* Health Care.png */,
+				B14F5AE51AC3B2C5006A1B42 /* Kitchen Appliances.png */,
+				B14F5AE71AC3B311006A1B42 /* Laptops.png */,
+				B14F5AE91AC3B349006A1B42 /* Men Apparels.png */,
+				B14F5AEB1AC3B3AA006A1B42 /* Mobile Accessories.png */,
+				B14F5AED1AC3B417006A1B42 /* Mobiles.png */,
+				B14F5AEF1AC3B45E006A1B42 /* Perfumes.png */,
+				B14F5AF11AC3B4A1006A1B42 /* Watches.png */,
+				B14F5AF31AC3B4D5006A1B42 /* Women Apparels.png */,
+			);
+			name = Offers;
+			sourceTree = "<group>";
+		};
+		B14F5ACA1AC3ADE1006A1B42 /* Offers_images */ = {
+			isa = PBXGroup;
+			children = (
+				B14F5AFF1AC3C57D006A1B42 /* Memorial Day.png */,
+				B14F5AFB1AC3C4E1006A1B42 /* Thanksgiving Day.png */,
+				B14F5ACB1AC3ADE1006A1B42 /* Boxing Day.jpeg */,
+				B14F5ACC1AC3ADE1006A1B42 /* Memorial Day.jpeg */,
+				B14F5ACD1AC3ADE1006A1B42 /* offer_banner0.jpg */,
+				B14F5ACE1AC3ADE1006A1B42 /* offer_banner1.jpg */,
+				B14F5ACF1AC3ADE1006A1B42 /* offer_banner2.jpg */,
+				B14F5AD01AC3ADE1006A1B42 /* offer_banner3.jpg */,
+				B14F5AD11AC3ADE1006A1B42 /* Thanksgiving Day.jpeg */,
+				B14F5AD21AC3ADE1006A1B42 /* Veterans Day.jpeg */,
+			);
+			path = Offers_images;
+			sourceTree = "<group>";
+		};
+		B16007DB1A8C77C100A63A97 /* offer_banners */ = {
+			isa = PBXGroup;
+			children = (
+				B14F5AF51AC3B56B006A1B42 /* Special Offer.png */,
+				B14F5AB41AC3A992006A1B42 /* JCP_logo.jpeg */,
+				B16007FD1A8C7E5700A63A97 /* cart.png */,
+				B16007FE1A8C7E5700A63A97 /* cart@2x.png */,
+				B14F5AF71AC3B5B0006A1B42 /* Boxing Day.png */,
+				B14F5AF91AC3B5F6006A1B42 /* Veterans Day.png */,
+				B14F5AFD1AC3C532006A1B42 /* Perfumes.png */,
+				B16007E01A8C77CA00A63A97 /* offer_banner0.jpg */,
+				B16007E11A8C77CA00A63A97 /* offer_banner3.jpg */,
+				B16007E21A8C77CA00A63A97 /* offer_banner2.jpg */,
+				B16007E31A8C77CA00A63A97 /* offer_banner1.jpg */,
+			);
+			path = offer_banners;
+			sourceTree = "<group>";
+		};
+		B16007EC1A8C79D800A63A97 /* Vendor Images */ = {
+			isa = PBXGroup;
+			children = (
+				B16007ED1A8C79E500A63A97 /* wf.jpeg */,
+				B16007EE1A8C79E500A63A97 /* J.C.Penny_logo.jpeg */,
+				B16007EF1A8C79E500A63A97 /* Kohl's_logo.jpeg */,
+				B16007F01A8C79E500A63A97 /* Costco_logo.jpeg */,
+				B16007F11A8C79E500A63A97 /* Macy's_logo.jpeg */,
+				B16007F21A8C79E500A63A97 /* Sears_logo.jpeg */,
+				B16007F31A8C79E500A63A97 /* Target_logo.jpeg */,
+				B16007F41A8C79E500A63A97 /* Wal-Mart_logo.jpeg */,
+			);
+			path = "Vendor Images";
+			sourceTree = "<group>";
+		};
+		B18BE32F1A8B24EA00D85AA1 = {
+			isa = PBXGroup;
+			children = (
+				B18BE4251A8B750B00D85AA1 /* libsqlite3.0.dylib */,
+				B18BE33A1A8B24EA00D85AA1 /* WellsFargoeCards */,
+				B18BE3571A8B24EB00D85AA1 /* WellsFargoeCardsTests */,
+				B18BE3391A8B24EA00D85AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18BE3391A8B24EA00D85AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3381A8B24EA00D85AA1 /* WellsFargoeCards.app */,
+				B18BE3541A8B24EB00D85AA1 /* WellsFargoeCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18BE33A1A8B24EA00D85AA1 /* WellsFargoeCards */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC16001AB2BAEE00A99F0A /* Classes */,
+				B18BE3641A8B257600D85AA1 /* Libraries */,
+				B18BE3651A8B257600D85AA1 /* Models */,
+				B18BE3671A8B257600D85AA1 /* ViewControllers */,
+				B18BE33F1A8B24EA00D85AA1 /* AppDelegate.h */,
+				B18BE3401A8B24EA00D85AA1 /* AppDelegate.m */,
+				B18BE3481A8B24EA00D85AA1 /* Main.storyboard */,
+				B18BE34B1A8B24EA00D85AA1 /* Images.xcassets */,
+				B18BE34D1A8B24EA00D85AA1 /* LaunchScreen.xib */,
+				B18BE3421A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodeld */,
+				B18BE33B1A8B24EA00D85AA1 /* Supporting Files */,
+			);
+			path = WellsFargoeCards;
+			sourceTree = "<group>";
+		};
+		B18BE33B1A8B24EA00D85AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3661A8B257600D85AA1 /* Resources */,
+				B18BE4901A8B797600D85AA1 /* iCarousal */,
+				B18BE4271A8B757D00D85AA1 /* ReuseComponents */,
+				B18BE3B31A8B664700D85AA1 /* Utility */,
+				B18BE33C1A8B24EA00D85AA1 /* Info.plist */,
+				B18BE33D1A8B24EA00D85AA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18BE3571A8B24EB00D85AA1 /* WellsFargoeCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE35A1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m */,
+				B18BE3581A8B24EB00D85AA1 /* Supporting Files */,
+			);
+			path = WellsFargoeCardsTests;
+			sourceTree = "<group>";
+		};
+		B18BE3581A8B24EB00D85AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3591A8B24EB00D85AA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18BE3641A8B257600D85AA1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B18BE3651A8B257600D85AA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B12965421A932BC7001A1B10 /* Voice Vault */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B18BE3661A8B257600D85AA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B14F5ADB1AC3B035006A1B42 /* Special Offers.png */,
+				B14F5ACA1AC3ADE1006A1B42 /* Offers_images */,
+				B1FC15C91AB1C93000A99F0A /* eWallet.sqlite */,
+				B12965541A9391EF001A1B10 /* Offers */,
+				B12965471A937978001A1B10 /* gray_all.png */,
+				B12965481A937978001A1B10 /* red_all.png */,
+				B12965431A93501D001A1B10 /* placeholder.png */,
+				B11236671A9222AE0095D24B /* profile.jpeg */,
+				B11236651A92211D0095D24B /* gift7.png */,
+				B11236631A9220B30095D24B /* creditcard8.png */,
+				B112365D1A92116D0095D24B /* opened4.png */,
+				B112365B1A9211630095D24B /* sms4.png */,
+				B11236591A92114E0095D24B /* facetime_icon.png */,
+				B11236381A91D0540095D24B /* Service Offerings */,
+				B16008061A8C8F2000A63A97 /* gray_master.png */,
+				B16008071A8C8F2000A63A97 /* gray_visa.png */,
+				B16008081A8C8F2000A63A97 /* red_master.png */,
+				B16008091A8C8F2000A63A97 /* red_visa.png */,
+				B160080A1A8C8F2000A63A97 /* red_wells.png */,
+				B12965451A935266001A1B10 /* gray_wells.png */,
+				B16007EC1A8C79D800A63A97 /* Vendor Images */,
+				B16007DB1A8C77C100A63A97 /* offer_banners */,
+				B107D4741A8B862A002B059B /* Madhu.JPG */,
+				B18BE3A01A8B3DA600D85AA1 /* fingerprint43.png */,
+				B18BE3A11A8B3DA600D85AA1 /* microphone9.png */,
+				B18BE3A21A8B3DA600D85AA1 /* password13.png */,
+				B18BE3851A8B34F700D85AA1 /* eCard_banner.jpg */,
+				B18BE3761A8B25A700D85AA1 /* App_icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B18BE3671A8B257600D85AA1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE4771A8B792300D85AA1 /* ReuseComponents */,
+				B18BE4281A8B78FC00D85AA1 /* Cards */,
+				B18BE4471A8B78FC00D85AA1 /* Offers */,
+				B18BE3A61A8B5D2E00D85AA1 /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B18BE3761A8B25A700D85AA1 /* App_icons */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */,
+				B18BE3781A8B25A700D85AA1 /* app_icon_120.png */,
+				B18BE3791A8B25A700D85AA1 /* app_icon_152.png */,
+				B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */,
+				B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */,
+				B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */,
+				B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */,
+			);
+			path = App_icons;
+			sourceTree = "<group>";
+		};
+		B18BE3A61A8B5D2E00D85AA1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE3A71A8B5D2E00D85AA1 /* AuthenticationViewController.h */,
+				B18BE3A81A8B5D2E00D85AA1 /* AuthenticationViewController.m */,
+				B18BE3A91A8B5D2E00D85AA1 /* LoginViewController.h */,
+				B18BE3AA1A8B5D2E00D85AA1 /* LoginViewController.m */,
+				B18BE3AB1A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.h */,
+				B18BE3AC1A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.m */,
+				B18BE3AD1A8B5D2E00D85AA1 /* VoiceLoginViewController.h */,
+				B18BE3AE1A8B5D2E00D85AA1 /* VoiceLoginViewController.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B18BE3B31A8B664700D85AA1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE4841A8B795D00D85AA1 /* CVCell.h */,
+				B18BE4851A8B795D00D85AA1 /* CVCell.m */,
+				B1423FB31A8E28A60076D7CC /* CVCell.xib */,
+				B1337ED21A94B55200C25CA4 /* OffersCVCell.h */,
+				B1337ED31A94B55200C25CA4 /* OffersCVCell.m */,
+				B1337ED41A94B55200C25CA4 /* OffersCVCell.xib */,
+				B18BE4861A8B795D00D85AA1 /* DatabaseQueryHandler.h */,
+				B18BE4871A8B795D00D85AA1 /* DatabaseQueryHandler.m */,
+				B18BE4881A8B795D00D85AA1 /* LoadingView.h */,
+				B18BE4891A8B795D00D85AA1 /* LoadingView.m */,
+				B18BE48A1A8B795D00D85AA1 /* Utility.h */,
+				B18BE48B1A8B795D00D85AA1 /* Utility.m */,
+				B18BE3BA1A8B669800D85AA1 /* Constant.h */,
+				B18BE3B41A8B666F00D85AA1 /* JSONParser.h */,
+				B18BE3B51A8B666F00D85AA1 /* JSONParser.m */,
+				B18BE3B61A8B666F00D85AA1 /* ServerCommunicator.h */,
+				B18BE3B71A8B666F00D85AA1 /* ServerCommunicator.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B18BE4271A8B757D00D85AA1 /* ReuseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE41B1A8B6B3400D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.h */,
+				B18BE41C1A8B6B3400D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m */,
+			);
+			path = ReuseComponents;
+			sourceTree = "<group>";
+		};
+		B18BE4281A8B78FC00D85AA1 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B11236411A91F12C0095D24B /* ServicesOffering */,
+				B18BE4301A8B78FC00D85AA1 /* CustomerViewController.h */,
+				B18BE4311A8B78FC00D85AA1 /* CustomerViewController.m */,
+				B18BE42B1A8B78FC00D85AA1 /* CardDetailsViewController.h */,
+				B18BE42C1A8B78FC00D85AA1 /* CardDetailsViewController.m */,
+				B18BE42D1A8B78FC00D85AA1 /* CarouselViewController.h */,
+				B18BE42E1A8B78FC00D85AA1 /* CarouselViewController.m */,
+				B18BE42F1A8B78FC00D85AA1 /* CarouselViewController.xib */,
+				B18BE4341A8B78FC00D85AA1 /* DetailsCustomerServiceCell.h */,
+				B18BE4351A8B78FC00D85AA1 /* DetailsCustomerServiceCell.m */,
+				B11236571A9210D10095D24B /* DetailsCustomerServiceCell.xib */,
+				B18BE4361A8B78FC00D85AA1 /* DetailsCustomerServiceViewController.h */,
+				B18BE4371A8B78FC00D85AA1 /* DetailsCustomerServiceViewController.m */,
+				B18BE4381A8B78FC00D85AA1 /* DisplayCardDetails.h */,
+				B18BE4391A8B78FC00D85AA1 /* DisplayCardDetails.m */,
+				B18BE43A1A8B78FC00D85AA1 /* DisplayCardDetails.xib */,
+				B18BE43B1A8B78FC00D85AA1 /* DTCustomColoredAccessory.h */,
+				B18BE43C1A8B78FC00D85AA1 /* DTCustomColoredAccessory.m */,
+				B18BE4431A8B78FC00D85AA1 /* ProductDescpViewController.h */,
+				B18BE4441A8B78FC00D85AA1 /* ProductDescpViewController.m */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		B18BE4471A8B78FC00D85AA1 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				B1BCB5C21A95EF5500FD5ACC /* Cart */,
+				B18BE4521A8B78FC00D85AA1 /* OffersViewController.h */,
+				B18BE4531A8B78FC00D85AA1 /* OffersViewController.m */,
+				B16008011A8C88E200A63A97 /* OffersTableViewCell.h */,
+				B16008021A8C88E200A63A97 /* OffersTableViewCell.m */,
+				B16008041A8C89C800A63A97 /* OffersTableViewCell.xib */,
+				B18BE4481A8B78FC00D85AA1 /* DetailsOfferPriceViewController.h */,
+				B18BE4491A8B78FC00D85AA1 /* DetailsOfferPriceViewController.m */,
+				B18BE44C1A8B78FC00D85AA1 /* DisplayVendorViewController.h */,
+				B18BE44D1A8B78FC00D85AA1 /* DisplayVendorViewController.m */,
+				B18BE44E1A8B78FC00D85AA1 /* OffersCollectionViewController.h */,
+				B18BE44F1A8B78FC00D85AA1 /* OffersCollectionViewController.m */,
+				B18BE4541A8B78FC00D85AA1 /* VendorOffersViewController.h */,
+				B18BE4551A8B78FC00D85AA1 /* VendorOffersViewController.m */,
+				B18BE4561A8B78FC00D85AA1 /* VendorOfferTableCell.h */,
+				B18BE4571A8B78FC00D85AA1 /* VendorOfferTableCell.m */,
+				B12965511A938CF0001A1B10 /* SpecialOffersViewController.h */,
+				B12965521A938CF0001A1B10 /* SpecialOffersViewController.m */,
+				B1D22A8F1A95BA4800D347DC /* OffersDescriptionViewController.h */,
+				B1D22A901A95BA4800D347DC /* OffersDescriptionViewController.m */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		B18BE4771A8B792300D85AA1 /* ReuseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE47C1A8B792300D85AA1 /* ContainerPageViewController.h */,
+				B18BE47D1A8B792300D85AA1 /* ContainerPageViewController.m */,
+				B18BE43F1A8B78FC00D85AA1 /* PagingSupportViewController.h */,
+				B18BE4401A8B78FC00D85AA1 /* PagingSupportViewController.m */,
+				B18BE47E1A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.h */,
+				B18BE47F1A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m */,
+				B1423FB01A8E24970076D7CC /* GenericCollectionViewController.h */,
+				B1423FB11A8E24970076D7CC /* GenericCollectionViewController.m */,
+				B11236521A91F3600095D24B /* GenericTableViewController.h */,
+				B11236531A91F3600095D24B /* GenericTableViewController.m */,
+			);
+			path = ReuseComponents;
+			sourceTree = "<group>";
+		};
+		B18BE4901A8B797600D85AA1 /* iCarousal */ = {
+			isa = PBXGroup;
+			children = (
+				B18BE4911A8B797600D85AA1 /* FXImageView.h */,
+				B18BE4921A8B797600D85AA1 /* FXImageView.m */,
+				B18BE4931A8B797600D85AA1 /* iCarousel.h */,
+				B18BE4941A8B797600D85AA1 /* iCarousel.m */,
+				B18BE4951A8B797600D85AA1 /* UIImage+FX.h */,
+				B18BE4961A8B797600D85AA1 /* UIImage+FX.m */,
+			);
+			path = iCarousal;
+			sourceTree = "<group>";
+		};
+		B1BCB5C21A95EF5500FD5ACC /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B1D22A921A95BE9000D347DC /* DisplayCartViewController.h */,
+				B1D22A931A95BE9000D347DC /* DisplayCartViewController.m */,
+				B1D22A941A95BE9000D347DC /* DisplayCartViewController.xib */,
+				B1D22A971A95BEEF00D347DC /* DisplayCartTableViewCell.h */,
+				B1D22A981A95BEEF00D347DC /* DisplayCartTableViewCell.m */,
+				B1D22A991A95BEEF00D347DC /* DisplayCartTableViewCell.xib */,
+				B1BCB5C31A95F16200FD5ACC /* PayBillViewController.h */,
+				B1BCB5C41A95F16200FD5ACC /* PayBillViewController.m */,
+				B1BCB5C51A95F16200FD5ACC /* PayBillViewController.xib */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
+		B1FC16001AB2BAEE00A99F0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC16011AB2BCD400A99F0A /* BankCard.h */,
+				B1FC16021AB2BCD400A99F0A /* BankCard.m */,
+				B1FC16041AB2BE7800A99F0A /* CreditCard.h */,
+				B1FC16051AB2BE7800A99F0A /* CreditCard.m */,
+				B129CFB41AC518C80069586E /* Customer.h */,
+				B129CFB51AC518C80069586E /* Customer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18BE3371A8B24EA00D85AA1 /* WellsFargoeCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18BE35E1A8B24EB00D85AA1 /* Build configuration list for PBXNativeTarget "WellsFargoeCards" */;
+			buildPhases = (
+				B18BE3341A8B24EA00D85AA1 /* Sources */,
+				B18BE3351A8B24EA00D85AA1 /* Frameworks */,
+				B18BE3361A8B24EA00D85AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellsFargoeCards;
+			productName = WellsFargoeCards;
+			productReference = B18BE3381A8B24EA00D85AA1 /* WellsFargoeCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18BE3531A8B24EB00D85AA1 /* WellsFargoeCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18BE3611A8B24EB00D85AA1 /* Build configuration list for PBXNativeTarget "WellsFargoeCardsTests" */;
+			buildPhases = (
+				B18BE3501A8B24EB00D85AA1 /* Sources */,
+				B18BE3511A8B24EB00D85AA1 /* Frameworks */,
+				B18BE3521A8B24EB00D85AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18BE3561A8B24EB00D85AA1 /* PBXTargetDependency */,
+			);
+			name = WellsFargoeCardsTests;
+			productName = WellsFargoeCardsTests;
+			productReference = B18BE3541A8B24EB00D85AA1 /* WellsFargoeCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18BE3301A8B24EA00D85AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mummidi, Raja";
+				TargetAttributes = {
+					B18BE3371A8B24EA00D85AA1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B18BE3531A8B24EB00D85AA1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B18BE3371A8B24EA00D85AA1;
+					};
+				};
+			};
+			buildConfigurationList = B18BE3331A8B24EA00D85AA1 /* Build configuration list for PBXProject "WellsFargoeCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18BE32F1A8B24EA00D85AA1;
+			productRefGroup = B18BE3391A8B24EA00D85AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18BE3371A8B24EA00D85AA1 /* WellsFargoeCards */,
+				B18BE3531A8B24EB00D85AA1 /* WellsFargoeCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18BE3361A8B24EA00D85AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14F5AE01AC3B169006A1B42 /* Bags.png in Resources */,
+				B14F5ADA1AC3ADE1006A1B42 /* Veterans Day.jpeg in Resources */,
+				B14F5AE41AC3B25B006A1B42 /* Health Care.png in Resources */,
+				B14F5AB51AC3A992006A1B42 /* JCP_logo.jpeg in Resources */,
+				B16007EA1A8C77CA00A63A97 /* offer_banner2.jpg in Resources */,
+				B11236681A9222AE0095D24B /* profile.jpeg in Resources */,
+				B16007E81A8C77CA00A63A97 /* offer_banner0.jpg in Resources */,
+				B18BE37F1A8B25A700D85AA1 /* app_icon_120.png in Resources */,
+				B16007F81A8C79E500A63A97 /* Costco_logo.jpeg in Resources */,
+				B1BCB5C71A95F16200FD5ACC /* PayBillViewController.xib in Resources */,
+				B11236561A91F7550095D24B /* TransactionCellView.xib in Resources */,
+				B1D22A961A95BE9000D347DC /* DisplayCartViewController.xib in Resources */,
+				B1337ED61A94B55200C25CA4 /* OffersCVCell.xib in Resources */,
+				B112363C1A91D0860095D24B /* Manage Card.png in Resources */,
+				B18BE3801A8B25A700D85AA1 /* app_icon_152.png in Resources */,
+				B14F5AD91AC3ADE1006A1B42 /* Thanksgiving Day.jpeg in Resources */,
+				B129654E1A938287001A1B10 /* Redeem Points.png in Resources */,
+				B160080C1A8C8F2000A63A97 /* gray_visa.png in Resources */,
+				B11236661A92211D0095D24B /* gift7.png in Resources */,
+				B1D22A9B1A95BEEF00D347DC /* DisplayCartTableViewCell.xib in Resources */,
+				B12965441A93501D001A1B10 /* placeholder.png in Resources */,
+				B16007F61A8C79E500A63A97 /* J.C.Penny_logo.jpeg in Resources */,
+				B16008051A8C89C800A63A97 /* OffersTableViewCell.xib in Resources */,
+				B18BE34A1A8B24EA00D85AA1 /* Main.storyboard in Resources */,
+				B14F5AD31AC3ADE1006A1B42 /* Boxing Day.jpeg in Resources */,
+				B18BE34F1A8B24EA00D85AA1 /* LaunchScreen.xib in Resources */,
+				B1FC15CA1AB1C93000A99F0A /* eWallet.sqlite in Resources */,
+				B14F5AE81AC3B311006A1B42 /* Laptops.png in Resources */,
+				B14F5AD41AC3ADE1006A1B42 /* Memorial Day.jpeg in Resources */,
+				B14F5AF21AC3B4A1006A1B42 /* Watches.png in Resources */,
+				B18BE34C1A8B24EA00D85AA1 /* Images.xcassets in Resources */,
+				B18BE3A31A8B3DA600D85AA1 /* fingerprint43.png in Resources */,
+				B18BE3811A8B25A700D85AA1 /* app_icon_180.png in Resources */,
+				B16007FF1A8C7E5700A63A97 /* cart.png in Resources */,
+				B16007EB1A8C77CA00A63A97 /* offer_banner1.jpg in Resources */,
+				B18BE4661A8B78FD00D85AA1 /* DisplayCardDetails.xib in Resources */,
+				B14F5AEA1AC3B349006A1B42 /* Men Apparels.png in Resources */,
+				B18BE4601A8B78FD00D85AA1 /* CarouselViewController.xib in Resources */,
+				B14F5AFC1AC3C4E1006A1B42 /* Thanksgiving Day.png in Resources */,
+				B14F5AF61AC3B56B006A1B42 /* Special Offer.png in Resources */,
+				B107D4751A8B862A002B059B /* Madhu.JPG in Resources */,
+				B160080F1A8C8F2000A63A97 /* red_wells.png in Resources */,
+				B18BE39B1A8B360800D85AA1 /* README.TXT in Resources */,
+				B112363A1A91D05E0095D24B /* Statements.png in Resources */,
+				B16007FC1A8C79E500A63A97 /* Wal-Mart_logo.jpeg in Resources */,
+				B14F5AF01AC3B45E006A1B42 /* Perfumes.png in Resources */,
+				B14F5AFE1AC3C532006A1B42 /* Perfumes.png in Resources */,
+				B16007FA1A8C79E500A63A97 /* Sears_logo.jpeg in Resources */,
+				B18BE3A51A8B3DA600D85AA1 /* password13.png in Resources */,
+				B112363E1A91D0980095D24B /* Support.png in Resources */,
+				B16007F51A8C79E500A63A97 /* wf.jpeg in Resources */,
+				B14F5B001AC3C57D006A1B42 /* Memorial Day.png in Resources */,
+				B11236641A9220B30095D24B /* creditcard8.png in Resources */,
+				B129654A1A937978001A1B10 /* red_all.png in Resources */,
+				B14F5AD61AC3ADE1006A1B42 /* offer_banner1.jpg in Resources */,
+				B12965501A93858C001A1B10 /* Generate Gift Card.png in Resources */,
+				B160080D1A8C8F2000A63A97 /* red_master.png in Resources */,
+				B14F5AEC1AC3B3AA006A1B42 /* Mobile Accessories.png in Resources */,
+				B160080E1A8C8F2000A63A97 /* red_visa.png in Resources */,
+				B12965461A935266001A1B10 /* gray_wells.png in Resources */,
+				B14F5AF41AC3B4D5006A1B42 /* Women Apparels.png in Resources */,
+				B14F5AE21AC3B1FD006A1B42 /* Cameras.png in Resources */,
+				B14F5AF81AC3B5B0006A1B42 /* Boxing Day.png in Resources */,
+				B18BE3831A8B25A700D85AA1 /* app_icon_44.png in Resources */,
+				B14F5AFA1AC3B5F6006A1B42 /* Veterans Day.png in Resources */,
+				B18BE3861A8B34F700D85AA1 /* eCard_banner.jpg in Resources */,
+				B11236401A91D0A80095D24B /* Add-on Card.png in Resources */,
+				B16007E91A8C77CA00A63A97 /* offer_banner3.jpg in Resources */,
+				B112365A1A92114E0095D24B /* facetime_icon.png in Resources */,
+				B18BE39C1A8B360800D85AA1 /* WHATSNEW.TXT in Resources */,
+				B18BE3841A8B25A700D85AA1 /* app_icon_76.png in Resources */,
+				B12965641A93921A001A1B10 /* Home Decor.png in Resources */,
+				B112365E1A92116D0095D24B /* opened4.png in Resources */,
+				B18BE3821A8B25A700D85AA1 /* app_icon_22.png in Resources */,
+				B14F5AE61AC3B2C5006A1B42 /* Kitchen Appliances.png in Resources */,
+				B16007F71A8C79E500A63A97 /* Kohl's_logo.jpeg in Resources */,
+				B14F5ADC1AC3B035006A1B42 /* Special Offers.png in Resources */,
+				B18BE37E1A8B25A700D85AA1 /* app_icon_1024.png in Resources */,
+				B12965491A937978001A1B10 /* gray_all.png in Resources */,
+				B160080B1A8C8F2000A63A97 /* gray_master.png in Resources */,
+				B11236581A9210D10095D24B /* DetailsCustomerServiceCell.xib in Resources */,
+				B16008001A8C7E5700A63A97 /* cart@2x.png in Resources */,
+				B1423FB41A8E28A60076D7CC /* CVCell.xib in Resources */,
+				B14F5AD71AC3ADE1006A1B42 /* offer_banner2.jpg in Resources */,
+				B14F5AEE1AC3B417006A1B42 /* Mobiles.png in Resources */,
+				B16007F91A8C79E500A63A97 /* Macy's_logo.jpeg in Resources */,
+				B14F5AD51AC3ADE1006A1B42 /* offer_banner0.jpg in Resources */,
+				B14F5AD81AC3ADE1006A1B42 /* offer_banner3.jpg in Resources */,
+				B18BE3A41A8B3DA600D85AA1 /* microphone9.png in Resources */,
+				B112365C1A9211630095D24B /* sms4.png in Resources */,
+				B16007FB1A8C79E500A63A97 /* Target_logo.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18BE3521A8B24EB00D85AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18BE3341A8B24EA00D85AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18A43701AB191590000ACF4 /* DatabaseQueryHandler.m in Sources */,
+				B18BE46F1A8B78FD00D85AA1 /* DisplayVendorViewController.m in Sources */,
+				B18BE4991A8B797600D85AA1 /* UIImage+FX.m in Sources */,
+				B18BE4741A8B78FD00D85AA1 /* VendorOfferTableCell.m in Sources */,
+				B18BE3B01A8B5D2E00D85AA1 /* LoginViewController.m in Sources */,
+				B18BE39F1A8B360800D85AA1 /* ParseViewController.m in Sources */,
+				B18BE4631A8B78FD00D85AA1 /* DetailsCustomerServiceCell.m in Sources */,
+				B18BE4701A8B78FD00D85AA1 /* OffersCollectionViewController.m in Sources */,
+				B11236511A91F1970095D24B /* TransactionsViewController.m in Sources */,
+				B1D22A911A95BA4800D347DC /* OffersDescriptionViewController.m in Sources */,
+				B18BE3B11A8B5D2E00D85AA1 /* VoiceAuthenticationViewController.m in Sources */,
+				B18BE4611A8B78FD00D85AA1 /* CustomerViewController.m in Sources */,
+				B1BCB5C61A95F16200FD5ACC /* PayBillViewController.m in Sources */,
+				B1337ED51A94B55200C25CA4 /* OffersCVCell.m in Sources */,
+				B18BE3441A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodeld in Sources */,
+				B18BE4691A8B78FD00D85AA1 /* PagingSupportViewController.m in Sources */,
+				B18BE4731A8B78FD00D85AA1 /* VendorOffersViewController.m in Sources */,
+				B18BE4821A8B792300D85AA1 /* ContainerPageViewController.m in Sources */,
+				B18BE3411A8B24EA00D85AA1 /* AppDelegate.m in Sources */,
+				B1423FB21A8E24970076D7CC /* GenericCollectionViewController.m in Sources */,
+				B1FC16061AB2BE7800A99F0A /* CreditCard.m in Sources */,
+				B112364D1A91F1970095D24B /* AddCardViewController.m in Sources */,
+				B1D22A951A95BE9000D347DC /* DisplayCartViewController.m in Sources */,
+				B18BE45F1A8B78FD00D85AA1 /* CarouselViewController.m in Sources */,
+				B18BE4721A8B78FD00D85AA1 /* OffersViewController.m in Sources */,
+				B112364E1A91F1970095D24B /* ManageCardViewController.m in Sources */,
+				B18BE3B21A8B5D2E00D85AA1 /* VoiceLoginViewController.m in Sources */,
+				B18BE4641A8B78FD00D85AA1 /* DetailsCustomerServiceViewController.m in Sources */,
+				B18BE33E1A8B24EA00D85AA1 /* main.m in Sources */,
+				B18BE4981A8B797600D85AA1 /* iCarousel.m in Sources */,
+				B11236541A91F3600095D24B /* GenericTableViewController.m in Sources */,
+				B18BE46C1A8B78FD00D85AA1 /* SupportViewController.m in Sources */,
+				B18BE4671A8B78FD00D85AA1 /* DTCustomColoredAccessory.m in Sources */,
+				B18BE39E1A8B360800D85AA1 /* VoiceVaultData.m in Sources */,
+				B18BE3B81A8B666F00D85AA1 /* JSONParser.m in Sources */,
+				B18BE4971A8B797600D85AA1 /* FXImageView.m in Sources */,
+				B129CFB61AC518C80069586E /* Customer.m in Sources */,
+				B18BE48C1A8B795D00D85AA1 /* CVCell.m in Sources */,
+				B18BE3B91A8B666F00D85AA1 /* ServerCommunicator.m in Sources */,
+				B1D22A9A1A95BEEF00D347DC /* DisplayCartTableViewCell.m in Sources */,
+				B11236501A91F1970095D24B /* TransactionCellView.m in Sources */,
+				B18BE46D1A8B78FD00D85AA1 /* DetailsOfferPriceViewController.m in Sources */,
+				B18BE46B1A8B78FD00D85AA1 /* ProductDescpViewController.m in Sources */,
+				B18BE48F1A8B795D00D85AA1 /* Utility.m in Sources */,
+				B18BE3AF1A8B5D2E00D85AA1 /* AuthenticationViewController.m in Sources */,
+				B18BE4651A8B78FD00D85AA1 /* DisplayCardDetails.m in Sources */,
+				B16008031A8C88E200A63A97 /* OffersTableViewCell.m in Sources */,
+				B1FC16031AB2BCD400A99F0A /* BankCard.m in Sources */,
+				B18BE48E1A8B795D00D85AA1 /* LoadingView.m in Sources */,
+				B12965531A938CF0001A1B10 /* SpecialOffersViewController.m in Sources */,
+				B18BE45E1A8B78FD00D85AA1 /* CardDetailsViewController.m in Sources */,
+				B18BE4831A8B792300D85AA1 /* RecipeCollectionHeaderViewCollectionReusableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18BE3501A8B24EB00D85AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18BE35B1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18BE3561A8B24EB00D85AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18BE3371A8B24EA00D85AA1 /* WellsFargoeCards */;
+			targetProxy = B18BE3551A8B24EB00D85AA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18BE3481A8B24EA00D85AA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18BE3491A8B24EA00D85AA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18BE34D1A8B24EA00D85AA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18BE34E1A8B24EA00D85AA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18BE35C1A8B24EB00D85AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		B18BE35D1A8B24EB00D85AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18BE35F1A8B24EB00D85AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WellsFargoeCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WellsFargoeCards/Models",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18BE3601A8B24EB00D85AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WellsFargoeCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WellsFargoeCards/Models",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B18BE3621A8B24EB00D85AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellsFargoeCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsFargoeCards.app/WellsFargoeCards";
+			};
+			name = Debug;
+		};
+		B18BE3631A8B24EB00D85AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellsFargoeCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsFargoeCards.app/WellsFargoeCards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18BE3331A8B24EA00D85AA1 /* Build configuration list for PBXProject "WellsFargoeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18BE35C1A8B24EB00D85AA1 /* Debug */,
+				B18BE35D1A8B24EB00D85AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18BE35E1A8B24EB00D85AA1 /* Build configuration list for PBXNativeTarget "WellsFargoeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18BE35F1A8B24EB00D85AA1 /* Debug */,
+				B18BE3601A8B24EB00D85AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18BE3611A8B24EB00D85AA1 /* Build configuration list for PBXNativeTarget "WellsFargoeCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18BE3621A8B24EB00D85AA1 /* Debug */,
+				B18BE3631A8B24EB00D85AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B18BE3421A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B18BE3431A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodel */,
+			);
+			currentVersion = B18BE3431A8B24EA00D85AA1 /* WellsFargoeCards.xcdatamodel */;
+			path = WellsFargoeCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B18BE3301A8B24EA00D85AA1 /* Project object */;
+}
