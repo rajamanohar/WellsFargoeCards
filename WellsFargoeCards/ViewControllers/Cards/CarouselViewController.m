@@ -61,13 +61,13 @@
     ((FXImageView *)view).processedImage = [UIImage imageNamed:@"placeholder.png"];
     
     if(index%2){
-        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"gray_%@",objCardDetails.strProvider]];
+        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"my_bank_visa"]];
     }
     else{
-        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"red_%@",objCardDetails.strProvider]];
+        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"my_bank_master"]];
     }
-    if([objCardDetails.strType isEqualToString:@"Discount card"]){
-        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"red_all"]];
+    if([objCardDetails.strType isEqualToString:@"Discount card"] || [objCardDetails.strType isEqualToString:@"Gift card"]){
+        ((FXImageView *)view).image=[UIImage imageNamed:[NSString stringWithFormat:@"my_bank_card.png"]];
     }
     
     DisplayCardDetails *objDisplayCardDetails=[[DisplayCardDetails alloc]init];
@@ -77,7 +77,7 @@
      if([objCardDetails.strType isEqualToString:@"Discount card"]){
          objDisplayCardDetails.imgViewVendor.hidden=NO;
          objDisplayCardDetails.imgViewVendor.image=[UIImage imageNamed:[NSString stringWithFormat:@"%@_logo.jpeg",
-                                                                                                                          [NSString stringWithFormat:@"%@",objCardDetails.strNameOnCard]]];
+                                                                                                                          [NSString stringWithFormat:@"%@",objCardDetails.strProvider]]];
          }
     [((FXImageView *)view) addSubview:objDisplayCardDetails.view];
     return view;

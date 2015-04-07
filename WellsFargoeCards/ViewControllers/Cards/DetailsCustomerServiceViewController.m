@@ -110,7 +110,7 @@
     }
     else if(indexPath.section==1){
         cell.lblType.text = @"Email";
-        cell.txtView.text=@"customercare@wellsfargo.com";
+        cell.txtView.text=@"customercare@mybank.com";
         //  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     else if(indexPath.section==2){
@@ -194,7 +194,7 @@
         
         [mailer setSubject:@"Report Issue"];
         
-        NSArray *toRecipients = [NSArray arrayWithObjects:@"customercare@wellsfargo.com", @"bankcards@wellsfargo.com", nil];
+        NSArray *toRecipients = [NSArray arrayWithObjects:@"customercare@mybank.com", @"bankcards@mybank.com", nil];
         [mailer setToRecipients:toRecipients];
         
         UIImage *myImage = [UIImage imageNamed:@"app_icon_44.png"];

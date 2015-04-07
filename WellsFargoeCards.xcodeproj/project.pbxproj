@@ -25,6 +25,14 @@
 		B11236641A9220B30095D24B /* creditcard8.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236631A9220B30095D24B /* creditcard8.png */; };
 		B11236661A92211D0095D24B /* gift7.png in Resources */ = {isa = PBXBuildFile; fileRef = B11236651A92211D0095D24B /* gift7.png */; };
 		B11236681A9222AE0095D24B /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B11236671A9222AE0095D24B /* profile.jpeg */; };
+		B11F09081ACD17050019B81F /* Bipin_Sahni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B11F09071ACD17050019B81F /* Bipin_Sahni.jpeg */; };
+		B11F090C1ACD21920019B81F /* app_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F09091ACD21920019B81F /* app_icon_120.png */; };
+		B11F090D1ACD21920019B81F /* app_icon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F090A1ACD21920019B81F /* app_icon_152.png */; };
+		B11F090E1ACD21920019B81F /* app_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F090B1ACD21920019B81F /* app_icon_180.png */; };
+		B11F09121ACD22020019B81F /* my_bank_card.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F090F1ACD22020019B81F /* my_bank_card.png */; };
+		B11F09131ACD22020019B81F /* my_bank_master.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F09101ACD22020019B81F /* my_bank_master.png */; };
+		B11F09141ACD22020019B81F /* my_bank_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F09111ACD22020019B81F /* my_bank_visa.png */; };
+		B11F09161ACD497B0019B81F /* credit31-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B11F09151ACD497B0019B81F /* credit31-2.png */; };
 		B12965441A93501D001A1B10 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965431A93501D001A1B10 /* placeholder.png */; };
 		B12965461A935266001A1B10 /* gray_wells.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965451A935266001A1B10 /* gray_wells.png */; };
 		B12965491A937978001A1B10 /* gray_all.png in Resources */ = {isa = PBXBuildFile; fileRef = B12965471A937978001A1B10 /* gray_all.png */; };
@@ -95,9 +103,6 @@
 		B18BE34F1A8B24EA00D85AA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18BE34D1A8B24EA00D85AA1 /* LaunchScreen.xib */; };
 		B18BE35B1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18BE35A1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m */; };
 		B18BE37E1A8B25A700D85AA1 /* app_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */; };
-		B18BE37F1A8B25A700D85AA1 /* app_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3781A8B25A700D85AA1 /* app_icon_120.png */; };
-		B18BE3801A8B25A700D85AA1 /* app_icon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE3791A8B25A700D85AA1 /* app_icon_152.png */; };
-		B18BE3811A8B25A700D85AA1 /* app_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */; };
 		B18BE3821A8B25A700D85AA1 /* app_icon_22.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */; };
 		B18BE3831A8B25A700D85AA1 /* app_icon_44.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */; };
 		B18BE3841A8B25A700D85AA1 /* app_icon_76.png in Resources */ = {isa = PBXBuildFile; fileRef = B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */; };
@@ -189,6 +194,14 @@
 		B11236631A9220B30095D24B /* creditcard8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard8.png; sourceTree = "<group>"; };
 		B11236651A92211D0095D24B /* gift7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift7.png; sourceTree = "<group>"; };
 		B11236671A9222AE0095D24B /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
+		B11F09071ACD17050019B81F /* Bipin_Sahni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bipin_Sahni.jpeg; sourceTree = "<group>"; };
+		B11F09091ACD21920019B81F /* app_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_120.png; sourceTree = "<group>"; };
+		B11F090A1ACD21920019B81F /* app_icon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_152.png; sourceTree = "<group>"; };
+		B11F090B1ACD21920019B81F /* app_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_180.png; sourceTree = "<group>"; };
+		B11F090F1ACD22020019B81F /* my_bank_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_bank_card.png; sourceTree = "<group>"; };
+		B11F09101ACD22020019B81F /* my_bank_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_bank_master.png; sourceTree = "<group>"; };
+		B11F09111ACD22020019B81F /* my_bank_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_bank_visa.png; sourceTree = "<group>"; };
+		B11F09151ACD497B0019B81F /* credit31-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit31-2.png"; sourceTree = "<group>"; };
 		B12965431A93501D001A1B10 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		B12965451A935266001A1B10 /* gray_wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_wells.png; sourceTree = "<group>"; };
 		B12965471A937978001A1B10 /* gray_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_all.png; sourceTree = "<group>"; };
@@ -268,9 +281,6 @@
 		B18BE3591A8B24EB00D85AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B18BE35A1A8B24EB00D85AA1 /* WellsFargoeCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellsFargoeCardsTests.m; sourceTree = "<group>"; };
 		B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_1024.png; sourceTree = "<group>"; };
-		B18BE3781A8B25A700D85AA1 /* app_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_120.png; sourceTree = "<group>"; };
-		B18BE3791A8B25A700D85AA1 /* app_icon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_152.png; sourceTree = "<group>"; };
-		B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_180.png; sourceTree = "<group>"; };
 		B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_22.png; sourceTree = "<group>"; };
 		B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_44.png; sourceTree = "<group>"; };
 		B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_76.png; sourceTree = "<group>"; };
@@ -608,7 +618,12 @@
 		B18BE3661A8B257600D85AA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B11F09091ACD21920019B81F /* app_icon_120.png */,
+				B11F090A1ACD21920019B81F /* app_icon_152.png */,
+				B11F090B1ACD21920019B81F /* app_icon_180.png */,
+				B11F09071ACD17050019B81F /* Bipin_Sahni.jpeg */,
 				B14F5ADB1AC3B035006A1B42 /* Special Offers.png */,
+				B11F09151ACD497B0019B81F /* credit31-2.png */,
 				B14F5ACA1AC3ADE1006A1B42 /* Offers_images */,
 				B1FC15C91AB1C93000A99F0A /* eWallet.sqlite */,
 				B12965541A9391EF001A1B10 /* Offers */,
@@ -628,6 +643,9 @@
 				B16008091A8C8F2000A63A97 /* red_visa.png */,
 				B160080A1A8C8F2000A63A97 /* red_wells.png */,
 				B12965451A935266001A1B10 /* gray_wells.png */,
+				B11F090F1ACD22020019B81F /* my_bank_card.png */,
+				B11F09101ACD22020019B81F /* my_bank_master.png */,
+				B11F09111ACD22020019B81F /* my_bank_visa.png */,
 				B16007EC1A8C79D800A63A97 /* Vendor Images */,
 				B16007DB1A8C77C100A63A97 /* offer_banners */,
 				B107D4741A8B862A002B059B /* Madhu.JPG */,
@@ -655,9 +673,6 @@
 			isa = PBXGroup;
 			children = (
 				B18BE3771A8B25A700D85AA1 /* app_icon_1024.png */,
-				B18BE3781A8B25A700D85AA1 /* app_icon_120.png */,
-				B18BE3791A8B25A700D85AA1 /* app_icon_152.png */,
-				B18BE37A1A8B25A700D85AA1 /* app_icon_180.png */,
 				B18BE37B1A8B25A700D85AA1 /* app_icon_22.png */,
 				B18BE37C1A8B25A700D85AA1 /* app_icon_44.png */,
 				B18BE37D1A8B25A700D85AA1 /* app_icon_76.png */,
@@ -875,6 +890,7 @@
 				TargetAttributes = {
 					B18BE3371A8B24EA00D85AA1 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2R69M77FY4;
 					};
 					B18BE3531A8B24EB00D85AA1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -906,6 +922,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11F09131ACD22020019B81F /* my_bank_master.png in Resources */,
 				B14F5AE01AC3B169006A1B42 /* Bags.png in Resources */,
 				B14F5ADA1AC3ADE1006A1B42 /* Veterans Day.jpeg in Resources */,
 				B14F5AE41AC3B25B006A1B42 /* Health Care.png in Resources */,
@@ -913,19 +930,19 @@
 				B16007EA1A8C77CA00A63A97 /* offer_banner2.jpg in Resources */,
 				B11236681A9222AE0095D24B /* profile.jpeg in Resources */,
 				B16007E81A8C77CA00A63A97 /* offer_banner0.jpg in Resources */,
-				B18BE37F1A8B25A700D85AA1 /* app_icon_120.png in Resources */,
 				B16007F81A8C79E500A63A97 /* Costco_logo.jpeg in Resources */,
 				B1BCB5C71A95F16200FD5ACC /* PayBillViewController.xib in Resources */,
 				B11236561A91F7550095D24B /* TransactionCellView.xib in Resources */,
 				B1D22A961A95BE9000D347DC /* DisplayCartViewController.xib in Resources */,
+				B11F09141ACD22020019B81F /* my_bank_visa.png in Resources */,
 				B1337ED61A94B55200C25CA4 /* OffersCVCell.xib in Resources */,
 				B112363C1A91D0860095D24B /* Manage Card.png in Resources */,
-				B18BE3801A8B25A700D85AA1 /* app_icon_152.png in Resources */,
 				B14F5AD91AC3ADE1006A1B42 /* Thanksgiving Day.jpeg in Resources */,
 				B129654E1A938287001A1B10 /* Redeem Points.png in Resources */,
 				B160080C1A8C8F2000A63A97 /* gray_visa.png in Resources */,
 				B11236661A92211D0095D24B /* gift7.png in Resources */,
 				B1D22A9B1A95BEEF00D347DC /* DisplayCartTableViewCell.xib in Resources */,
+				B11F09081ACD17050019B81F /* Bipin_Sahni.jpeg in Resources */,
 				B12965441A93501D001A1B10 /* placeholder.png in Resources */,
 				B16007F61A8C79E500A63A97 /* J.C.Penny_logo.jpeg in Resources */,
 				B16008051A8C89C800A63A97 /* OffersTableViewCell.xib in Resources */,
@@ -938,7 +955,6 @@
 				B14F5AF21AC3B4A1006A1B42 /* Watches.png in Resources */,
 				B18BE34C1A8B24EA00D85AA1 /* Images.xcassets in Resources */,
 				B18BE3A31A8B3DA600D85AA1 /* fingerprint43.png in Resources */,
-				B18BE3811A8B25A700D85AA1 /* app_icon_180.png in Resources */,
 				B16007FF1A8C7E5700A63A97 /* cart.png in Resources */,
 				B16007EB1A8C77CA00A63A97 /* offer_banner1.jpg in Resources */,
 				B18BE4661A8B78FD00D85AA1 /* DisplayCardDetails.xib in Resources */,
@@ -948,11 +964,13 @@
 				B14F5AF61AC3B56B006A1B42 /* Special Offer.png in Resources */,
 				B107D4751A8B862A002B059B /* Madhu.JPG in Resources */,
 				B160080F1A8C8F2000A63A97 /* red_wells.png in Resources */,
+				B11F090C1ACD21920019B81F /* app_icon_120.png in Resources */,
 				B18BE39B1A8B360800D85AA1 /* README.TXT in Resources */,
 				B112363A1A91D05E0095D24B /* Statements.png in Resources */,
 				B16007FC1A8C79E500A63A97 /* Wal-Mart_logo.jpeg in Resources */,
 				B14F5AF01AC3B45E006A1B42 /* Perfumes.png in Resources */,
 				B14F5AFE1AC3C532006A1B42 /* Perfumes.png in Resources */,
+				B11F09121ACD22020019B81F /* my_bank_card.png in Resources */,
 				B16007FA1A8C79E500A63A97 /* Sears_logo.jpeg in Resources */,
 				B18BE3A51A8B3DA600D85AA1 /* password13.png in Resources */,
 				B112363E1A91D0980095D24B /* Support.png in Resources */,
@@ -971,6 +989,7 @@
 				B14F5AF81AC3B5B0006A1B42 /* Boxing Day.png in Resources */,
 				B18BE3831A8B25A700D85AA1 /* app_icon_44.png in Resources */,
 				B14F5AFA1AC3B5F6006A1B42 /* Veterans Day.png in Resources */,
+				B11F090E1ACD21920019B81F /* app_icon_180.png in Resources */,
 				B18BE3861A8B34F700D85AA1 /* eCard_banner.jpg in Resources */,
 				B11236401A91D0A80095D24B /* Add-on Card.png in Resources */,
 				B16007E91A8C77CA00A63A97 /* offer_banner3.jpg in Resources */,
@@ -990,6 +1009,7 @@
 				B16008001A8C7E5700A63A97 /* cart@2x.png in Resources */,
 				B1423FB41A8E28A60076D7CC /* CVCell.xib in Resources */,
 				B14F5AD71AC3ADE1006A1B42 /* offer_banner2.jpg in Resources */,
+				B11F090D1ACD21920019B81F /* app_icon_152.png in Resources */,
 				B14F5AEE1AC3B417006A1B42 /* Mobiles.png in Resources */,
 				B16007F91A8C79E500A63A97 /* Macy's_logo.jpeg in Resources */,
 				B14F5AD51AC3ADE1006A1B42 /* offer_banner0.jpg in Resources */,
@@ -997,6 +1017,7 @@
 				B18BE3A41A8B3DA600D85AA1 /* microphone9.png in Resources */,
 				B112365C1A9211630095D24B /* sms4.png in Resources */,
 				B16007FB1A8C79E500A63A97 /* Target_logo.jpeg in Resources */,
+				B11F09161ACD497B0019B81F /* credit31-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1124,7 +1145,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Evan Dixon (WCBL62QAU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Evan Dixon (WCBL62QAU3)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1144,6 +1166,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e4722f48-6fd4-4605-b62e-5abd3e1f0d37";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1167,7 +1190,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Evan Dixon (WCBL62QAU3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Evan Dixon (WCBL62QAU3)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1180,6 +1204,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e4722f48-6fd4-4605-b62e-5abd3e1f0d37";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1190,13 +1215,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WellsFargoeCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WellsFargoeCards/Models",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4722f48-6fd4-4605-b62e-5abd3e1f0d37";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1205,13 +1233,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Evan Dixon (WCBL62QAU3)";
 				INFOPLIST_FILE = WellsFargoeCards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WellsFargoeCards/Models",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4722f48-6fd4-4605-b62e-5abd3e1f0d37";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

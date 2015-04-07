@@ -187,7 +187,7 @@
 }
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-  //  [self.navigationController popViewControllerAnimated:NO];
+   [self.navigationController popViewControllerAnimated:NO];
     
 }
 -(IBAction)displayOfferDetails:(id)sender

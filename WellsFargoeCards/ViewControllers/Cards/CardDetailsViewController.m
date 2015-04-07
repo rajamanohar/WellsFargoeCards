@@ -72,6 +72,7 @@
       view1.frame = CGRectMake(0, 0, self.view.frame.size.width, _viewFlipContainer.frame.size.height);
        self.objCarouselViewCtrl.view.frame=CGRectMake(0, 0, self.view.frame.size.width, _viewFlipContainer.frame.size.height);
       view2.frame = CGRectMake(0, 0, self.view.frame.size.width, _viewFlipContainer.frame.size.height);
+     [self setUpView];
     
 }
 - (void)didReceiveMemoryWarning {
@@ -167,7 +168,7 @@
           }
       }
     isStatusReady=1;
-    [self setUpView];
+   
     
     //display card details on initla view
     if([arrCreditCards count]>0){

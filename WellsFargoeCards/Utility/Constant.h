@@ -18,7 +18,7 @@
 #define kGetCardsTrans @"http://wnl-svr031f.wellsfargo.com:3000/get?namedQuery=cardtrans"
 #define kGetCardsList @"http://wnl-svr031f.wellsfargo.com:3000/get?namedQuery=custcards"
 #define kGetCardsTypes @"http://wnl-svr031f.wellsfargo.com:3000/get?namedQuery=cardstypes"
-#define kCustomerCareFacetime @"facetime://customercare@wellsfargo.com"
+#define kCustomerCareFacetime @"facetime://customercare@mybank.com"
 
 
 

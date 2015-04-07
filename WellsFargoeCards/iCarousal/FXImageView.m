@@ -121,7 +121,7 @@
 
 - (void)setUp
 {
-    self.shadowColor = [UIColor blackColor];
+    self.shadowColor = [UIColor clearColor];
     _crossfadeDuration = 0.25;
     super.contentMode = UIViewContentModeCenter;
     self.image = super.image;

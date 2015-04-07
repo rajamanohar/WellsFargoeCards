@@ -95,10 +95,10 @@
         
         [mailer setSubject:@"Report Issue"];
         
-        NSArray *toRecipients = [NSArray arrayWithObjects:@"customercare@wellsfargo.com", @"bankcards@wellsfargo.com", nil];
+        NSArray *toRecipients = [NSArray arrayWithObjects:@"customercare@mybank.com", @"bankcards@mybank.com", nil];
         [mailer setToRecipients:toRecipients];
         
-        UIImage *myImage = [UIImage imageNamed:@"app_icon_44.png"];
+        UIImage *myImage = [UIImage imageNamed:@"credit31-2.png"];
         NSData *imageData = UIImagePNGRepresentation(myImage);
         [mailer addAttachmentData:imageData mimeType:@"image/png" fileName:@"mobiletutsImage"];
         
